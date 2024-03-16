@@ -1,0 +1,49 @@
+.singleDayStatus {
+    width: fit-content;
+    background-color: #e0f2fe;
+    margin: 5px;
+    margin-top: 2%;
+    padding: 5px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dayHeader {
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid #90caf9;
+    font-weight: bold;
+}
+
+.statusButtons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statusBtn {
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #666;
+}
+
+.statusBtn:hover {
+    color: #333;
+}
+
+.done {
+    color: #4caf50;
+}
+
+.notDone {
+    color: #f44336;
+}
+
+.pending {
+    color: #2196f3;
+}

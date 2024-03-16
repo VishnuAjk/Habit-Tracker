@@ -1,0 +1,41 @@
+.habitListItem {
+    width: 100%;
+    height: 50px;
+    background-color: #beadfa;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.habitListItem:hover {
+    background-color: #a084e8;
+}
+
+.habitListItem p {
+    margin: 0;
+}
+
+.habitListItem small {
+    color: #666;
+}
+
+
+
+.habitDeleteBtn{
+    height: 30px;
+    background-color: #1235ff;
+    color: white;
+    border-radius: 2rem;
+    transition: 0.2s ease-in-out;
+}
+.habitDeleteBtn:hover{
+    background-color: aliceblue;
+    color: black;
+    transform: scale(1.01);
+}

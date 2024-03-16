@@ -1,0 +1,51 @@
+.weekStatusContainer {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid #4a90e2;
+}
+
+.closeBtn {
+    display: none;
+}
+
+.habitName {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.habitDetails {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.weeklyProgress {
+    margin-top: 5%;
+}
+
+.weeklyProgressHeading {
+    text-align: center;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.dayStatusContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .closeBtn {
+        display: block;
+        float: left;
+        background-color: #ff5f5f; /* Adjust color as needed */
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+}

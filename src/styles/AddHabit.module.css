@@ -1,0 +1,65 @@
+.addHabitContainer {
+    width: 50%;
+    max-width: 80%;
+    height: 70%;
+    background-color: #C5DFF8;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.addHabitHeading {
+    color: #3B82F6;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.addhabitformContainer {
+    width: 80%;
+    margin: 0 auto;
+    border-top: 1px solid #3B82F6;
+    padding-top: 10px;
+}
+
+.formLable {
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.formInput {
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 0 5px;
+    font-weight: 600;
+}
+
+.formInput::placeholder{
+    font-size: 1.1rem;
+    
+}
+
+.formInput:focus{
+    font-size: 1.1rem;
+    padding: 5px;
+}
+
+.addHabitBtn {
+    background-color: #9b80fc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    float: right;
+    cursor: pointer;
+}
+
+.addHabitBtn:hover {
+    background-color: #6B46C1;
+}
